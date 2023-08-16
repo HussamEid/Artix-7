@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="uart_processor_system" platform="C:/Users/hexad/Documents/Artix-7/UART/SDK/uart_proc_wrapper/export/uart_proc_wrapper/uart_proc_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" sysConfig="uart_proc_wrapper" runtime="cpp" rootFSLocation="" linuxImage="" sysroot="">
+  <configuration name="Debug" id="com.xilinx.sdx.system.managedbuilder.debugConfiguration.240470115">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="uart_processor" domainName="standalone_microblaze_mcs_0_microblaze_I" domainPrettyName="standalone_microblaze_mcs_0_microblaze_I" appBuildConfig="Debug"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdx.system.managedbuilder.releaseConfiguration.1345399428">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="uart_processor" domainName="standalone_microblaze_mcs_0_microblaze_I" domainPrettyName="standalone_microblaze_mcs_0_microblaze_I" appBuildConfig="Release"/>
+      <options xsi:type="sdkproject:SdkOptions" generateSdCard="true"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

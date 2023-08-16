@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="uart_processor" location="C:/Users/hexad/Documents/Artix-7/UART/SDK/uart_processor" platform="C:/Users/hexad/Documents/Artix-7/UART/SDK/uart_proc_wrapper/export/uart_proc_wrapper/uart_proc_wrapper.xpfm" platformUID="xilinx:::0.0(custom)" systemProject="uart_processor_system" sysConfig="uart_proc_wrapper" runtime="cpp" cpu="standalone_microblaze_mcs_0_microblaze_I" cpuInstance="microblaze_mcs_0_microblaze_I" os="standalone" mssSignature="f105f2c4f5567d85122b670493e2bd1d">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.146507247">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1598622739" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

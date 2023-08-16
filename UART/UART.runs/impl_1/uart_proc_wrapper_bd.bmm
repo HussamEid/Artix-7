@@ -1,0 +1,30 @@
+// BMM LOC annotation file.
+//
+// SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+// Vivado v2023.1 (64-bit)
+// Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+
+///////////////////////////////////////////////////////////////////////////////
+//
+// Processor 'uart_proc_i_microblaze_mcs_0_inst_microblaze_I', ID 100, memory map.
+//
+///////////////////////////////////////////////////////////////////////////////
+
+ADDRESS_MAP uart_proc_i_microblaze_mcs_0_inst_microblaze_I MICROBLAZE-LE 100 uart_proc_i/microblaze_mcs_0/inst/microblaze_I
+
+    ///////////////////////////////////////////////////////////////////////////////
+    //
+    // Processor 'uart_proc_i_microblaze_mcs_0_inst_microblaze_I' address space 'uart_proc_i_microblaze_mcs_0_inst_dlmb_cntlr' 0X0000000000000000:0X0000000000001FFF (8 KBytes).
+    //
+    ///////////////////////////////////////////////////////////////////////////////
+
+    ADDRESS_SPACE uart_proc_i_microblaze_mcs_0_inst_dlmb_cntlr RAMB32 [0X0000000000000000:0X0000000000001FFF] uart_proc_i/microblaze_mcs_0/inst/dlmb_cntlr
+        BUS_BLOCK
+            uart_proc_i/microblaze_mcs_0/inst/lmb_bram_I/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [31:16] [0:2047] PLACED = X0Y16;
+            uart_proc_i/microblaze_mcs_0/inst/lmb_bram_I/U0/inst_blk_mem_gen/gnbram.gnative_mem_map_bmg.native_mem_map_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_7SERIES.WITH_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.TDP_SP36_NO_ECC_ATTR.ram RAMB32 [15:0] [0:2047] PLACED = X0Y15;
+        END_BUS_BLOCK;
+    END_ADDRESS_SPACE;
+
+END_ADDRESS_MAP;
+

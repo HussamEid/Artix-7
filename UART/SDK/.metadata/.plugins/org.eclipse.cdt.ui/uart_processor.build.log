@@ -1,0 +1,21 @@
+00:46:38 **** Incremental Build of configuration Debug for project uart_processor ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -IC:/Users/hexad/Documents/Artix-7/UART/SDK/uart_proc_wrapper/export/uart_proc_wrapper/sw/uart_proc_wrapper/standalone_microblaze_mcs_0_microblaze_I/bspinclude/include -mno-xl-reorder -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: uart_processor.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LC:/Users/hexad/Documents/Artix-7/UART/SDK/uart_proc_wrapper/export/uart_proc_wrapper/sw/uart_proc_wrapper/standalone_microblaze_mcs_0_microblaze_I/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "uart_processor.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: uart_processor.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size uart_processor.elf  |tee "uart_processor.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   2564	    268	   3112	   5944	   1738	uart_processor.elf
+'Finished building: uart_processor.elf.size'
+' '
+
+00:46:39 Build Finished (took 1s.318ms)
+
